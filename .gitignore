@@ -1,0 +1,19 @@
+# Build directories
+build/
+out/
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Local SQLite database files (keep schema/code, ignore local runtime DBs)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Editor / OS clutter
+.vscode/
+Thumbs.db
